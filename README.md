@@ -16,7 +16,7 @@ In questa pagina aggiungi le destinazioni di posti che sogni di visitare in futu
     - 2 card per destinazioni per linea a schermo piccolo (mobile).
 6. Implementa la sezione "Offerta del giorno". Qui avrai:
     - 66% dello spazio dedicato all'immagine del luogo di destinazione
-    - 33% dello spazio dedicato
+    - 33% dello spazio dedicato 
 7. Rendi invisibile la sezione "Offerta del giorno" su schermo mobile.
 8. Aggiungi nella sezione "Welcome Summer" un'ombra ad ogni card.
 9. Crea una sezione "Last Minute", in cui mostrerai le immagini delle destionazioni last minute sotto forma di card.

@@ -1,16 +1,33 @@
-$('.owl-carousel').owlCarousel({
+$('.weekly').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
         },
         1000:{
-            items:5
+            items:4
+        }
+    }
+})
+
+$('.summer').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
         }
     }
 })
