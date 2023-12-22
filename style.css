@@ -10,3 +10,8 @@
 .owl-carousel {
     cursor: grab;
 }
+
+.owl-next > span, .owl-prev > span {
+    padding: 20px;
+    font-size: 50px;
+}
