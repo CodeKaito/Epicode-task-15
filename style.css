@@ -1,0 +1,12 @@
+.nav-height {
+    height: 60px;
+    padding: 20px;
+}
+
+.jumbotron-container {
+    height: 60vh;
+}
+
+.owl-carousel {
+    cursor: grab;
+}
