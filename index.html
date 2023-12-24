@@ -26,59 +26,122 @@
   <body>
     <header>
       <!-- place navbar here -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+      <nav class="navbar navbar-expand-lg navbar-light">
       <!-- Image and text -->
       <a class="navbar-brand mx-auto" href="#home">
-        <img src="/assets/logo.png" class="d-inline-block align-top logo" alt="">
+        <img src="/assets/white-logo.png" class="d-inline-block align-top logo mr-5" alt="">
       </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#weeklyoffer">Weekly Offers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#welcomesummer">Welcome Summer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#dailyoffer">Daily Offer</a>
-          </li>
-        </ul>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#weeklyoffer">Weekly Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#welcomesummer">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#dailyoffer">Daily Offer</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
       </div>
       </nav>
-          
-    </header>
-    <main>
 
-      <div class="jumbotron jumbotron-fluid text-light home" id="home">
+      <div class="jumbotron jumbotron-fluid text-light bg-transparent home" id="home">
         <div class="mx-5">
           <h1 class="display-lg-1 display-md-4 display-sm-6 mx-5">Kaito Travel</h1>
             <p class="lead display-md-6 display-sm-8 mx-5">Discover the World with Kaito Travel</p>
             <p class="lead mx-5">Explore exotic destinations, experience diverse cultures, and make every adventure a story to tell.</p>
             <p class="lead mx-5">
-              <a class="btn btn-light btn-lg text-dark" href="#" role="button">Start Your Journey</a>
+              <a class="btn btn-light btn-lg text-dark" href="#weeklyoffer" role="button">Start Your Journey</a>
             </p>
         </div>
       </div>
+          
+    </header>
+    <main>
+      
       <!-- OWL CAROUSEL WEEKLY OFFER -->
       <div>
-        <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 text-center" id="weeklyoffer">Weekly Offers</h1>
+        <h1 class="font-weight-light display-lg-2 display-md-4 display-sm-6 mx-5 text-center mt-5" id="weeklyoffer">Weekly Offers in...</h1>
       </div>
+      <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 ml-5">Asia</h1>
       <div class="container-fluid">
-                <div class="row">
-                    <div class="owl-carousel weekly owl-theme">
+        <div class="row">
+          <div class="owl-carousel weekly owl-theme">
+            <div class="item">
+              <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1661948404806-391a240d6d40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGtvcmVhfGVufDB8fDB8fHww" alt="" height="300px" class="card-img-top">
+                <hr />
+                <p class="font-weight-light mx-3">Seoul, South Korea</p>
+              </div>
+            </div>
                         <div class="item">
                             <div class="card">
-                                <img src="https://plus.unsplash.com/premium_photo-1661948404806-391a240d6d40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGtvcmVhfGVufDB8fDB8fHww" alt="" height="300px" class="card-img-top">
+                                <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9uZyUyMGtvbmd8ZW58MHx8MHx8fDA%3D" alt="" height="300px class="card-img-top">
                                 <hr />
-                                <p class="font-weight-light mx-3">Seoul, South Korea</p>
+                                <p class="font-weight-light mx-3">Hong Kong, China</p>
                             </div>
                         </div>
+                        <div class="item">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGphcGFufGVufDB8fDB8fHww" alt="" height="300px class="card-img-top">
+                                <hr />
+                                <p class="font-weight-light mx-3">Tokyo, Japan</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a3VhbGElMjBsdW1wdXJ8ZW58MHx8MHx8fDA%3D" alt="" height="300px class="card-img-top">
+                                <hr />
+                                <p class="font-weight-light mx-3">Kuala Lumpur, Malesia</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFuZ2tva3xlbnwwfHwwfHx8MA%3D%3D" alt="" height="300px class="card-img-top">
+                                <hr />
+                                <p class="font-weight-light mx-3">Bangkok, Thailand</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1598935898639-81586f7d2129?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFpcGVpfGVufDB8fDB8fHww" alt="" height="300px class="card-img-top">
+                                <hr />
+                                <p class="font-weight-light mx-3">Taipei, Taiwan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+      <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 ml-5">Europe</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="owl-carousel weekly owl-theme">
+            <div class="item">
+              <div class="card">
+                <img src="https://plus.unsplash.com/premium_photo-1661948404806-391a240d6d40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGtvcmVhfGVufDB8fDB8fHww" alt="" height="300px" class="card-img-top">
+                <hr />
+                <p class="font-weight-light mx-3">Seoul, South Korea</p>
+              </div>
+            </div>
                         <div class="item">
                             <div class="card">
                                 <img src="https://images.unsplash.com/photo-1533029030467-904d7bbd602b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9uZyUyMGtvbmd8ZW58MHx8MHx8fDA%3D" alt="" height="300px class="card-img-top">
@@ -118,46 +181,43 @@
                 </div>
       </div>
 
-      <div>
-        <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 text-center" id="welcomesummer">Welcome Summer</h1>
-          <div class="container">
-            <div class="jumbotron">
-              <h1>Welcome Summer</h1>
-                <p class="lead">Explore the best destinations and make your summer unforgettable with our travel agency. From exotic beaches to cultural adventures, we've got the perfect getaway for you. Let the journey begin!</p>
-
-                  <div class="container">
-                    <div class="row">
+      <div class="container-fluid welcome-section text-center py-5">
+        <div class="overlay py-5">
+          <h1 class="font-weight-light display-lg-2 display-md-4 display-sm-6 mx-5" id="welcomesummer">Welcome Summer</h1>
+            <p class="lead">Embrace the warmth, adventure, and joy of the summer season. Your perfect getaway awaits!</p>
+            <p class="h4">Discover amazing destinations and create unforgettable memories.</p>
+          <div class="container-fluid">
+            <div class="row">
                       <div class="owl-carousel summer owl-theme">
                         <div class="item">
                           <div class="card">
-                            <img src="https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmFsaXxlbnwwfHwwfHx8MA%3D%3D" alt="bali, indonesia" height="120px" class="card-img-top">
+                            <img src="https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmFsaXxlbnwwfHwwfHx8MA%3D%3D" alt="bali, indonesia" height="200px" class="card-img-top">
                             <hr />
                             <p class="font-weight-light mx-3">Bali, Indonesia</p>
                           </div>
                         </div>
                         <div class="item">
                           <div class="card">
-                            <img src="https://images.unsplash.com/photo-1534008897995-27a23e859048?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBodWtldHxlbnwwfHwwfHx8MA%3D%3D" alt="phuket, thailand" height="120px" class="card-img-top">
+                            <img src="https://images.unsplash.com/photo-1534008897995-27a23e859048?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBodWtldHxlbnwwfHwwfHx8MA%3D%3D" alt="phuket, thailand" height="200px" class="card-img-top">
                             <hr />
                             <p class="font-weight-light mx-3">Phuket, Thailand</p>
                           </div>
                         </div>
                         <div class="item">
-                          <div class="card">
-                            <img src="https://images.unsplash.com/photo-1534008897995-27a23e859048?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBodWtldHxlbnwwfHwwfHx8MA%3D%3D" alt="phuket, thailand" height="120px" class="card-img-top">
+                          <div class="card shadow">
+                            <img src="https://images.pexels.com/photos/3601426/pexels-photo-3601426.jpeg?auto=compress&cs=tinysrgb&w=800" alt="maldives" height="200px" class="card-img-top">
                             <hr />
                             <p class="font-weight-light mx-3">Maldives</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>  
+          </div>
+        </div>
+      </div>
 
-          <div>
-            <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 text-center" id="dailyoffer">Daily Offer</h1>
+      <div>
+            <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mt-5 text-center" id="dailyoffer">Daily Offer</h1>
             <div class="container">
               <div class="jumbotron">
                 <div class="row">
@@ -179,7 +239,66 @@
                 </div>
               </div>
             </div>
+      </div>
+
+    <div class="container-fluid mt-5">
+      <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 ml-5">Last minute</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-2">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+    </div>
     </main>
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
@@ -297,7 +416,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <a class="text-reset fw-bold" href="https://codekaito.com/">codekaito.com</a>
     </div>
     <!-- Copyright -->
   </footer>

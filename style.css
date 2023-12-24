@@ -7,11 +7,14 @@ body {
     padding: 10px;
 }
 
-.jumbotron.home {
+header {
     background-image: url("https://r4.wallpaperflare.com/wallpaper/1000/732/59/spring-8k-uhd-8k-asia-wallpaper-537b330d7da97bf5cf764237b8cbd888.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 93.5vh;
+    height: 100vh;
+}
+
+.home {
     font-family: 'Dancing Script', cursive;
 }
 
@@ -34,20 +37,20 @@ body {
 @media (max-width: 576px) {
     /* Adjust the height for small screens and above (sm and up) */
     .logo {
-      height: 60px; /* Set the desired height for small screens and above */
+      height: 70px; /* Set the desired height for small screens and above */
     }
 }
 
 @media (min-width: 576px) and (max-width: 1024px) {
     /* Adjust the height for screens between 576px and 1024px (sm to lg) */
     .logo {
-        height: 50px; /* Set the desired height for screens between 576px and 1024px */
+        height: 80px; /* Set the desired height for screens between 576px and 1024px */
     }
 }
 
 @media (min-width: 1024px) {
     /* Adjust the height for small screens and above (sm and up) */
     .logo {
-      height: 40px; /* Set the desired height for small screens and above */
+      height: 90px; /* Set the desired height for small screens and above */
     }
 }
