@@ -21,6 +21,7 @@
     <!-- Owl carousel -->
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script defer src="app.js"></script>
   </head>
 
   <body>
@@ -78,7 +79,8 @@
     </header>
     <main>
       
-      <!-- OWL CAROUSEL WEEKLY OFFER -->
+    <!-- OWL CAROUSEL WEEKLY OFFER -->
+    <section class="hidden">
       <div>
         <h1 class="font-weight-light display-lg-2 display-md-4 display-sm-6 mx-5 text-center mt-5" id="weeklyoffer">Weekly Offers in...</h1>
       </div>
@@ -180,8 +182,9 @@
                     </div>
                 </div>
       </div>
+    </section>
 
-      <div class="container-fluid welcome-section text-center py-5">
+      <section class="container-fluid welcome-section text-center py-5 hidden">
         <div class="overlay py-5">
           <h1 class="font-weight-light display-lg-2 display-md-4 display-sm-6 mx-5" id="welcomesummer">Welcome Summer</h1>
             <p class="lead">Embrace the warmth, adventure, and joy of the summer season. Your perfect getaway awaits!</p>
@@ -242,9 +245,9 @@
                     </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div>
+      <section class="hidden">
             <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mt-5 text-center" id="dailyoffer">Daily Offer</h1>
             <div class="container">
               <div class="jumbotron">
@@ -267,11 +270,12 @@
                 </div>
               </div>
             </div>
-      </div>
+      </section>
 
-    <div class="container mt-5">
-      <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 ml-5">Last minute</h1>
-      <div class="row">
+    <section class="hidden">
+      <div class="container mt-5">
+        <h1 class="font-weight-light text-left display-lg-2 display-md-4 display-sm-6 mx-5 ml-5">Last minute</h1>
+        <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-8">
           <div class="card">
             <img src="https://res.cloudinary.com/lastminute-contenthub/image/upload/c_lfill,ar_10:6/c_limit,w_768,h_999999/q_auto:best/f_auto/v1/DAM/PPC/Countries/France/eyeem-23764952-105167739.jpg" class="card-img-top" alt="paris">
@@ -326,8 +330,11 @@
             </div>
           </div>
         </div>
-    </div>
-    </main>
+        </div>
+      </div>
+    </section>
+
+  </main>
   <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
