@@ -69,6 +69,7 @@ header {
     margin-left: auto;
 }
 
+
 @media (max-width: 576px) {
     /* Adjust the height for small screens and above (sm and up) */
     .logo {

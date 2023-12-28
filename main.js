@@ -1,7 +1,6 @@
 $('.weekly').owlCarousel({
     loop:true,
     margin:10,
-    center:true,
     nav:true,
     animateOut: 'fadeOut',
     responsive:{
@@ -21,7 +20,6 @@ $('.summer').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    center:true,
     responsive:{
         0:{
             items:2
