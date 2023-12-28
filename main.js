@@ -1,49 +1,12 @@
-$('.weekly').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    animateOut: 'fadeOut',
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:4
-        }
-    }
-})
+let cards = document.querySelectorAll(".card");
 
-$('.summer').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:6
-        }
-    }
-})
+let cardsCount = cards.length;
+document.getElementById("cardCount").textContent = cardsCount;
 
-var owl = $('.testimonials');
-owl.owlCarousel({
-    items:1,
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true
+document.getElementById("removeCards").addEventListener("click", function() {
+    cards.forEach(function(card) {
+      // Fai qualcosa con ogni card al clic del bottone
+      // Ad esempio, puoi rimuovere le cards
+      card.remove();
+    });
 });
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})
