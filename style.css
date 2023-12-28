@@ -5,18 +5,35 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    --sb-track-color: #2d1527;
+    --sb-thumb-color: #894076;
+    --sb-size: 11px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+}
+  
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 10px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
 }
 
 .hidden {
     opacity: 0;
-    transition: all 3s;
-    filter: blur(5px);
-    transition: all 1s;
+    transition: all 5s;
 }
 
 .show {
     opacity: 1;
-    filter: blur(0);
 }
 
 header {
@@ -44,6 +61,12 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+}
+
+.card-container {
+    max-width: 450px; /* Adjust the value according to your needs */
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (max-width: 576px) {

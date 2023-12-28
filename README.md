@@ -22,3 +22,8 @@ In questa pagina aggiungi le destinazioni di posti che sogni di visitare in futu
 9. Crea una sezione "Last Minute", in cui mostrerai le immagini delle destionazioni last minute sotto forma di card.
 10. Crea una sezione "testimonials", dove l'utente potrá trovare alcuni feedback da utenti fittizi.
 11. Crea un footer con le informazioni dell'agenzia e un bottone "Contattaci"
+12. Crea un bottone ad ogni sezione per collassarla e riaprirla se premuto
+13. Cra la possibilitá di contare il numero di viaggi presenti sulla pagina
+14. Crea un modale con un messaggio e un campo email
+15. Quando l'utente cliccherá su Contattaci, fai in modo che il modale venga visualizzato
+16. Crea una funzione che rimuova tutte le card della pagina

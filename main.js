@@ -39,9 +39,8 @@ var owl = $('.testimonials');
 owl.owlCarousel({
     items:1,
     loop:true,
-    margin:10,
     autoplay:true,
-    autoplayTimeout:10000,
+    autoplayTimeout:5000,
     autoplayHoverPause:true
 });
 $('.play').on('click',function(){
@@ -50,5 +49,3 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
-
-console.log("hello world")
